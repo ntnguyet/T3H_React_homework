@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  margin: 0 auto !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row, nav {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* header start*/
+.carousel-item > img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .carousel-item > img {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item > img {
+    height: 20rem;
+  }
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item > img {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item > img {
+    height: 35rem;
+  }
+}
+
+main div {
+  background-color: #88ec96;
+}
+
+main div nav ul li.nav-item {
+  background-color: #12e75985;
+}
+
+main div nav ul li.nav-item:hover {
+  background-color: #1d990d;
+}
+
+main div nav ul li.nav-item:hover a {
+  color: #fff;
+}
+
+main div section .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main div section h1 {
+  padding-top: 1rem;
+}
+
+main div section div p {
+  text-align: justify;
+}
+
+main div section div img {
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: #1d990d;
+}
+
+footer>a {
+  color: #fff;
+}
+
+/* header end */
+/*# sourceMappingURL=index.css.map */
