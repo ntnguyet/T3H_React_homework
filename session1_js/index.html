@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log(`simple` + 1); // 1?
+        console.log(`simple` / 1); // 2?
+        console.log(`simple` / 'simple test'); // 3?
+        console.log(Infinity / -Infinity); // 4?
+        console.log(1 + '1' - 2 * '3'); // 5?
+        console.log((1 + 3) - 2 * '3'); // 6?
+        // bai2
+        // false => "false"
+        let g2 = false;
+        g2 = String(g2);
+        console.log(g2);
+        // null => "null"
+        let g3 = null;
+        g3 = String(g3);
+        console.log(g3);
+        // undefined =>  "undefined"
+        let g4 = undefined;
+        g4 = String(g4);
+        console.log(g4);
+        // bai tap 3
+
+        // chuyen doi => number
+        let xoyz = undefined;
+        xoyz = Number(xoyz);
+        console.log(xoyz);
+        let zyox = null;
+        zyox = Number(zyox);
+        console.log(zyox);
+        let h20 = true;
+        h20 = Number(h20);
+        console.log(h20);
+        let h202 = false;
+        h202 = Number(h202);
+        console.log(h202);
+        let stringTest = '';
+        stringTest = Number(stringTest);
+        console.log(stringTest);
+        let stringTest2 = '                 ';
+        stringTest2 = Number(stringTest2);
+        console.log(stringTest2);
+        let stringTest3 = '0  hello               1';
+        stringTest3 = Number(stringTest3);
+        console.log(stringTest3);
+        let stringTest4 = `${"012"}`;
+        stringTest4 = Number(stringTest4);
+        console.log(stringTest4);
+        let stringTest5 = `${456}`;
+        stringTest5 = Number(stringTest5);
+        console.log(stringTest5);
+        let stringTest6 = 456;
+        stringTest6 = Number(stringTest6);
+        console.log(stringTest6);
+        let stringTest7 = '         6                 ';
+        stringTest7 = Number(stringTest7);
+        console.log(stringTest7);
+        let stringTest8 = '1         6                 0';
+        stringTest8 = Number(xoyz);
+        console.log(xoyz);
+    </script>
+</body>
+
+</html>
